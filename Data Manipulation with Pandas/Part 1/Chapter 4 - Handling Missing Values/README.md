@@ -80,3 +80,9 @@ Median  : 41.0
 Max     : 2243.0
 ```
 Terlihat data memiliki distribusi yang skewness, karena nilai mean dan median yang cukup jauh serta range data yang cukup lebar. Di sini pada kolom active data memiliki outliers. Jadi akan mengisi missing value dengan median.
+
+
+### Treatment untuk Missing Value - Part 5
+Di bagian ini akan menggunakan teknik interpolasi dalam mengisi nilai missing value pada suatu dataset.
+
+Data yang menggunakan interpolasi untuk mengisi data yang hilang adalah time series data, yang secara default akan diisi dengan interpolasi linear.
